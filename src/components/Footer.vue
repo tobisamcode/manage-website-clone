@@ -54,7 +54,7 @@ export default {
         '/icon-pinterest.svg',
         '/icon-instagram.svg',
       ],
-      
+      navs: [
         'Home',
         'Pricing',
         'Products',

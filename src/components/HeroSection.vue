@@ -5,10 +5,10 @@
     <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
       <!-- Left-item  -->
       <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
-        <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
+        <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left animate__animated animate__fadeInBottomLeft animate__delay-2s">
           Bring everyone together to build better products.
         </h1>
-        <p class="max-w-sm text-center text-DarkGrayishBlue md:text-left">
+        <p data-aos="zoom-in" data-aos-delay="1500" class="max-w-sm text-center text-DarkGrayishBlue md:text-left">
           Manage makes it simple for software teams to plan day-to-day 
           tasks while keeping the larger team goals in view.
         </p>
@@ -18,7 +18,7 @@
       </div>
 
       <!-- Right-item (Image) -->
-      <div class="md:w-1/2">
+      <div class="md:w-1/2 animate__animated animate__fadeInRight animate__delay-1s">
         <img src="/illustration-intro.svg" alt="">
       </div>
     </div>

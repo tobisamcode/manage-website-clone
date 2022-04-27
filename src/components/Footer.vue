@@ -7,7 +7,7 @@
       <div class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
         <div class="mx-auto my-6 text-center text-white md:hidden">Copyright &copy; 2020. All Rights Reserved</div>
         <!-- logo  -->
-        <img src="../../public/logo-white.svg" class="h-8"  alt="">
+        <img src="/public/logo-white.svg" class="h-8"  alt="">
          <!-- Social links container  -->
         <div class="flex justify-center space-x-4">
           <!-- links  -->
@@ -48,11 +48,11 @@ export default {
   data() {
     return {
       logos: [
-        '../../public/icon-facebook.svg',
-        '../../public/icon-youtube.svg',
-        '../../public/icon-twitter.svg',
-        '../../public/icon-pinterest.svg',
-        '../../public/icon-instagram.svg',
+        '/public/icon-facebook.svg',
+        '/public/icon-youtube.svg',
+        '/public/icon-twitter.svg',
+        '/public/icon-pinterest.svg',
+        '/public/icon-instagram.svg',
       ],
       navs: [
         'Home',

@@ -19,7 +19,7 @@
 
       <!-- Right-item (Image) -->
       <div class="md:w-1/2">
-        <img src="../../public/illustration-intro.svg" alt="">
+        <img src="/illustration-intro.svg" alt="">
       </div>
     </div>
   </section>

@@ -6,10 +6,10 @@
 
       <!-- left-items  -->
       <div class="flex flex-col space-y-12 md:w-1/2">
-        <h2 class="max-w-md text-4xl font-bold text-center md:text-left">
+        <h2 data-aos="fade-right" data-delay="1000" class="max-w-md text-4xl font-bold text-center md:text-left">
           What’s different about Manage?
         </h2>
-        <p class="max-w-sm text-center text-DarkGrayishBlue md:text-left">
+        <p data-aos="zoom-in" class="max-w-sm text-center text-DarkGrayishBlue md:text-left">
           Manage provides all the functionality your team needs, without 
           the complexity. Our software is tailor-made for modern digital 
           product teams. 
@@ -17,7 +17,8 @@
       </div>
 
       <!-- right-items  -->
-      <div class="flex flex-col space-y-8 md:w-1/2">
+      <div data-aos="fade-left" data-aos-delay="800"
+    data-aos-duration="1000" class="flex flex-col space-y-8 md:w-1/2">
         <!-- list Items -->
         <div v-for="item in items" :key="item.id" class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
           <!-- Heading -->
@@ -35,7 +36,7 @@
             <h3 class="hidden mb-4 text-lg font-bold md:block">
               {{ item.title }}
             </h3>
-            <p class="text-DarkGrayishBlue"> {{ item.paragraph }}} </p>
+            <p class="text-DarkGrayishBlue"> {{ item.paragraph }} </p>
           </div>
         </div>
    

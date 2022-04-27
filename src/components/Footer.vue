@@ -48,13 +48,13 @@ export default {
   data() {
     return {
       logos: [
-        '/public/icon-facebook.svg',
-        '/public/icon-youtube.svg',
-        '/public/icon-twitter.svg',
-        '/public/icon-pinterest.svg',
-        '/public/icon-instagram.svg',
+        '/icon-facebook.svg',
+        '/icon-youtube.svg',
+        '/icon-twitter.svg',
+        '/icon-pinterest.svg',
+        '/icon-instagram.svg',
       ],
-      navs: [
+      
         'Home',
         'Pricing',
         'Products',

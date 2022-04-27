@@ -10,7 +10,7 @@
       <!-- Testimonial Container large screen -->
       <div class="hidden flex-col mt-24 md:flex md:flex-row md:space-x-6">
         <!-- Testimonials -->
-        <div v-for="testimonial in testimonials" :key="testimonial.name" class=" flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3">
+        <div v-for="testimonial in testimonials" :key="testimonial.name" :data-aos="testimonial.animation" class=" flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3">
           <img :src="testimonial.img" class="w-16 -mt-14" alt="">
           <h5 class="text-lg font-bold">{{ testimonial.name }}</h5>
           <p class="text-sm text-DarkGrayishBlue">{{ testimonial.quote }}</p>
@@ -37,8 +37,8 @@
 
 
       <!-- Button  -->
-      <div class="my-16">
-        <a href="#" class="p-3 px-6 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">Get Started</a>
+      <div  class="my-16  animate__animated animate__bounceIn animate__delay-2s">
+        <a  href="#" class=" p-3 px-6 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">Get Started</a>
       </div>
     </div>
 
@@ -67,22 +67,27 @@ export default {
         {
           img: '/avatar-anisha.png',
           name: 'Anisha Li',
-          quote: '“Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”'
+          quote: '“Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”',
+          animation: "fade-right"
         },
         {
           img: '/avatar-ali.png',
           name: 'Ali Bravo',
-          quote: '“We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focuse”'
+          quote: '“We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focuse”',
+          animation: "zoom-in"
         },
         {
           img: '/avatar-richard.png',
           name: 'Richard Watts',
-          quote: '“Manage allows us to provide structure and process. It keeps us organized and focused. I can’t stop recommending them to everyone I talk to!”'
+          quote: '“Manage allows us to provide structure and process. It keeps us organized and focused. I can’t stop recommending them to everyone I talk to!”',
+          animation: "zoom-in"
         },
         {
           img: '/avatar-shanai.png',
           name: 'Shanai Gough',
-          quote: '“Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive.”'
+          quote: '“Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive.”',
+          animation: "fade-left"
+
         },
       ]
     }

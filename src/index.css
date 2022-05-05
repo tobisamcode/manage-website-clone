@@ -71,7 +71,7 @@ html, body {
 }
 
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-  width: 40px;
+  width: 30px;
   height: 4px;
   background-color: #000;
   border-radius: 4px;

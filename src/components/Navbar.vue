@@ -36,7 +36,7 @@
       </a>
 
       <!-- Hamburger Icon -->
-      <button :class="[isActive ? 'is-active' : '']" @click="toggleMenu()"  class="block hamburger hamburger--spin md:hidden" type="button">
+      <button :class="[isActive ? 'is-active' : '']" @click="toggleMenu()"  class="block hamburger hamburger--spin md:hidden overflow-hidden" type="button">
         <span class="hamburger-box">
           <span class="hamburger-inner"></span>
         </span>
